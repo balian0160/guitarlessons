@@ -1,0 +1,119 @@
+body {
+    background-color: black;
+    color: #e0e0e0;
+}
+
+.container {
+    padding: 120px 100px;
+}
+
+.container_title {
+    padding: 400px 200px;
+    background-image: url(images/title.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+.topImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container_title h1 {
+  font-size: 60px;
+  vertical-align: text-top;
+  text-align: center;
+  
+}
+
+.container_background {
+
+    padding: 120px 100px;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #e0e0e0;
+}
+
+
+
+
+
+.panel {
+    border: 1px solid #aaa; 
+    border-radius:0;
+    transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel-footer .btn:hover {
+    background-color: rgb(14, 178, 77) !important;
+    color: #ffffff;
+}
+
+.panel-heading1 {
+    color: #fff !important;
+    background-color: #aaa !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel-heading2 {
+    color: #fff !important;
+    background-color: rgba(38, 106, 163, 0.97) !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel-heading3 {
+    color: #fff !important;
+    background-color: #b52121 !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel-body {
+    color: black;
+}
+.panel-footer {
+    background-color: #fff !important;
+}
+
+.panel-footer h3 {
+    color: black;
+    font-size: 32px;
+}
+
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: #aaa;
+    color: #fff;
+}
+
+
+.btn {
+  color: #fff;
+  background-color: #aaa;
+}
