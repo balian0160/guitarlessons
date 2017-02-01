@@ -9,7 +9,7 @@ body {
 
 .container_title {
     padding: 400px 200px;
-    background-image: url(images/title.jpg);
+    background-image: url(title.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed
@@ -31,7 +31,7 @@ body {
 .container_background {
 
     padding: 120px 100px;
-    background-image: url(images/background.jpg);
+    background-image: url(background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: #e0e0e0;
