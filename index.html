@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
   
   <body>
+  
     
   
     <div class="container_title">
-      <img class="topImage" src="Logo_guitarlessons.png" alt="titlepic1">
+      <img class="topImage" src="images/Logo_guitarlessons.png" alt="titlepic1">
     </div>
   
     
@@ -32,7 +33,7 @@
                });
                </script>
               </div>
-      </div>
+    </div>
     
     <div class="text-center">
     <h2>What my students say</h2>
@@ -40,24 +41,18 @@
     <div class="container_background text-center">
       
         <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-        </div>
-
+          <!-- Indicators NOPE!!!-->
+        
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
             <h4>"Best guitar lessons."<br><span style="font-style:normal;">Balian</span></h4>
             </div>
             <div class="item">
-              <h4>"One word... WOW!!"<br><span style="font-style:normal;">John Doe, Salesman, Rep Inc</span></h4>
+              <h4>"One word... WOW!!"<br><span style="font-style:normal;">Guthrie Govan</span></h4>
             </div>
             <div class="item">
-              <h4>"Could I... BE any more happy with this company?"<br><span style="font-style:normal;">Chandler Bing, Actor, FriendsAlot</span></h4>
+              <h4>"This guy knows his shit!"<br><span style="font-style:normal;">Paul Gilbert</span></h4>
             </div>
           </div>
 
@@ -71,8 +66,8 @@
           <span class="sr-only">Next</span>
         </a>
       
+        </div>
     </div>
-    
     
    
     
@@ -98,7 +93,7 @@
               <div class="panel-footer">
                 <h3>x$</h3>
                 <h4>per lesson</h4>
-                <button class="btn btn-lg">Sign Up</button>
+                <button class="btn btn-lg" data-toggle="modal" data-target="#myModal">Sign Up</button>
               </div>
             </div> 
           </div> 
@@ -117,7 +112,7 @@
               <div class="panel-footer">
                 <h3>x$</h3>
                 <h4>per lesson</h4>
-                <button class="btn btn-lg">Sign Up</button>
+                <button class="btn btn-lg" data-toggle="modal" data-target="#myModal">Sign Up</button>
               </div>
             </div> 
           </div> 
@@ -136,23 +131,77 @@
               <div class="panel-footer">
                 <h3>x$</h3>
                 <h4>per lesson</h4>
-                <button class="btn btn-lg">Sign Up</button>
+                <button class="btn btn-lg" data-toggle="modal" data-target="#myModal">Sign Up</button>
               </div>
             </div> 
           </div> 
         </div>
       </div>
     
+    
+    
+    
+    
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+          </div>
+          <div class="modal-body">
+            <form role="form">
+              <div class="form-group">
+                <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
+                <input type="number" class="form-control" id="psw" placeholder="How many?">
+              </div>
+              <div class="form-group">
+                <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+                <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+              </div>
+              <button type="submit" class="btn btn-block">Pay 
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+              <span class="glyphicon glyphicon-remove"></span> Cancel
+            </button>
+            <p>Need <a href="#">help?</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <!-- References, videos, soundcloud -->
+      
     
-    
-      <div class="container">
+      <div class="row text-center">
+         <h2>References</h2>
+         <div class="col-sm-4">
+          <iframe width="250" height="250" src="https://www.youtube.com/embed/FuJaVKNhaDQ" frameborder="0" allowfullscreen></iframe>
+         </div>
         
+        <div class="col-sm-4">
+         <iframe width="250" height="250" src="https://www.youtube.com/embed/d5GbUZN9iP4" frameborder="0" allowfullscreen></iframe>
+         </div>
+        <div class="col-sm-4">
+         <iframe width="250" height="250" src="https://www.youtube.com/embed/gChypOrluh4" frameborder="0" allowfullscreen></iframe>
+         </div>
+      </div>
+      
+    
+    
+      <div class="container">  
         <div class="row">
           
           <div class="col-sm-4">
             <a href="#demo" data-toggle="collapse">
-              <img src="profile.jpg" alt="profilepic" style="width:200px;height:200px">
+              <img src="images/profile.jpg" alt="profilepic" style="width:200px;height:200px">
             </a>
             <div id="demo" class="collapse text-center">
               <p>Guitarist of Embodiment</p>
@@ -199,15 +248,15 @@
       </div>
       
   
-      
-    <footer class="text-center">
-          <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-            <span class="glyphicon glyphicon-chevron-up"></span>
-          </a><br></br>
-      <p>Follow me on &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/user/musicman1066/videos"><img src="youtubeicon.png" alt="youtubeicon" style="weight:40px; height:38px">&nbsp;&nbsp;</a>
-        <a href="https://soundcloud.com/ftmaxwell"><img src="soundcloudicon.jpg" alt="soundcloudicon" style="weight:100px; height:38px"></a>
-      </p>
-    </footer>
+      <footer class="text-center">
+        <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </a><br></br>
+    <p>Follow me on &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/user/musicman1066/videos"><img src="images/youtubeicon.png" alt="youtubeicon" style="weight:40px; height:38px">&nbsp;&nbsp;</a>
+      <a href="https://soundcloud.com/ftmaxwell">
+         <img src="images/soundcloudicon.jpg" alt="soundcloudicon" style="weight:100px; height:38px"></a>
+    </p>
+      </footer>
 
       <script>
       $(document).ready(function(){
@@ -215,6 +264,7 @@
           $('[data-toggle="tooltip"]').tooltip(); 
       })
       </script>
+  
 
   
 
