@@ -37,7 +37,10 @@ body {
     color: #e0e0e0;
 }
 
-
+.item h4 {
+    background-color: rgba(217, 195, 101, 0.56);
+    color: black;
+}
 
 
 
@@ -116,6 +119,18 @@ body {
 .btn {
   color: #fff;
   background-color: #aaa;
+}
+
+/* Add a dark gray background color to the modal header and center text */
+.modal-header, .close {
+    background-color: #333;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+}
+
+.modal-header, .modal-body {
+    padding: 40px 50px;
 }
 
 
